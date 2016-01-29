@@ -7,7 +7,8 @@ Gem::Specification.new do |s|
   s.platform      = Gem::Platform::RUBY
   s.authors       = ["Mitchell Hashimoto", "John Bender"]
   s.email         = ["mitchell.hashimoto@gmail.com", "john.m.bender@gmail.com"]
-  s.homepage      = "http://vagrantup.com"
+  s.homepage      = "https://www.vagrantup.com"
+  s.license       = 'MIT'
   s.summary       = "Build and distribute virtualized development environments."
   s.description   = "Vagrant is a tool for building and distributing virtualized development environments."
 
@@ -22,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency "listen", "~> 3.0.2"
   s.add_dependency "hashicorp-checkpoint", "~> 0.1.1"
   s.add_dependency "log4r", "~> 1.1.9", "< 1.1.11"
-  s.add_dependency "net-ssh", ">= 2.6.6", "< 2.10.0"
+  s.add_dependency "net-ssh", "~> 3.0.1"
   s.add_dependency "net-sftp", "~> 2.1"
   s.add_dependency "net-scp", "~> 1.1.0"
   s.add_dependency "rb-kqueue", "~> 0.2.0"
