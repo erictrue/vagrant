@@ -2,7 +2,7 @@
 
 * Website: [https://www.vagrantup.com/](https://www.vagrantup.com/)
 * Source: [https://github.com/mitchellh/vagrant](https://github.com/mitchellh/vagrant)
-* IRC: `#vagrant` on Freenode
+* [![Gitter chat](https://badges.gitter.im/mitchellh/vagrant.png)](https://gitter.im/mitchellh/vagrant)
 * Mailing list: [Google Groups](https://groups.google.com/group/vagrant-up)
 
 Vagrant is a tool for building and distributing development environments.
@@ -49,7 +49,7 @@ and you're welcome to give it a shot. The following is an example showing how to
 
     rake install
 
-Ruby 2.0 is needed.
+Ruby 2.2 is needed.
 
 ## Contributing to Vagrant
 
@@ -65,11 +65,6 @@ If you want to run Vagrant without having to install the gem, you may use `bundl
 like so:
 
     bundle exec vagrant help
-
-**NOTE:** By default running Vagrant via `bundle` will disable plugins.
-This is necessary because Vagrant creates its own private Bundler context
-(it does not respect your Gemfile), because it uses Bundler to manage plugin
-dependencies.
 
 ### Acceptance Tests
 
